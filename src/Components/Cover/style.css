@@ -1,0 +1,62 @@
+
+.cover-content h1 span{
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.cover-content .hire-button{
+    
+    background-color: var(--main-color);
+    color: aliceblue;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid var(--main-color-hover);
+    transition: 0.3s all ease-in-out;
+}
+
+.cover-content .hire-button i{
+    padding-left: 5px;
+}
+
+.cover-content .hire-button:hover{
+    background-color: transparent;
+    color: var(--main-color-hover);
+    border: 2px solid var(--main-color-hover);
+}
+
+.cover-image{
+    background-image: url(../../Images/pngtree-triangle.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.cover-image img{
+    width: 100%;
+}
+
+
+@media (max-width:884px) {
+    .cover-content{
+        min-height: 480px;
+        padding: 20px 0;
+    }
+    .cover-content h2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:576px) {
+    .cover{
+        height: auto;
+        padding: 0 30px;
+        text-align: center;
+    }
+    .cover-content{
+        margin-top: 20px;
+        min-height: 470px;
+    }
+    .cover-content h2{
+        font-size: 18px;
+    }
+}
